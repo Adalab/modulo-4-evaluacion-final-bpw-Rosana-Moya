@@ -5,7 +5,7 @@ function validateId(id) {
     return Number.isInteger(num) && num > 0;
 }
 
-const putRecipeId = async (req, res) => {  //app.put("/recipe/:id",
+const putRecipeId = async (req, res) => {  
     try {
         const { id } = req.params;
         const { name, ingredients, instructions } = req.body;

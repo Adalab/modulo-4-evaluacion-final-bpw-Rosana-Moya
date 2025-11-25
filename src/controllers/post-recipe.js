@@ -1,6 +1,6 @@
 const mysql = require("../database/mysql-pool");
 
-const postRecipe = async (req, res) => {    //app.post("/recipe",
+const postRecipe = async (req, res) => {    
     try {
         const { name, ingredients, instructions } = req.body;
 

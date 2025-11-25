@@ -5,7 +5,7 @@ function validateId(id) {
     return Number.isInteger(num) && num > 0;
 }
 
-const patchRecipeId = async (req, res) => {   //app.patch("/delete/:id",
+const patchRecipeId = async (req, res) => {   
     try {
         const { id } = req.params;
 

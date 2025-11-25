@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const { getRecipes, getRecipeId, postRecipe, putRecipeId, patchRecipeId } = require("./controllers");
-// const mysql = require("../database/mysql-pool");
 const app = express();
 const port = 3000;
 
